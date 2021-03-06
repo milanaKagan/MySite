@@ -1,0 +1,64 @@
+body{
+    align-items: center;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color:#d5d3c88a;
+    margin: 0;
+    font-weight: bold;
+}
+#home-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 55px;
+    color: white;
+    background-image: linear-gradient(rgb(232 231 225 / 84%), rgba(0, 0, 0, 0.5) ), url("./src/home-page.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#home-page h2{
+    font-size: 40px;
+}
+#about{
+    
+    display: flex;
+    margin: 10px;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#about-image{
+    background-image: url("./src/milana.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    position: sticky;
+}
+
+#about section, #about-image {
+    width: 300px;
+    height: 400px;
+}
+.homepage-section, #about-image{
+    box-shadow: 0px 0px 5px 1px #0000005c;
+    margin: 10px 0;
+    padding: 10px;
+    margin: 10px 0;
+    padding: 10px;
+}
+button{
+
+    width : 100px;
+    height: 40px;
+    outline: none;
+    border: 1px groove black;
+    background-color: transparent;
+    padding: 3px;
+}
+button:hover{
+    color: white;
+    font-weight: bold;
+    border: 1px groove white;
+}

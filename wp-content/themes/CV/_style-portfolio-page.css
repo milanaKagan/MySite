@@ -1,0 +1,65 @@
+main#portfolio-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 17px;
+    width: 100%;
+}
+.portfolio-section div{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 290px;
+    height: 140px;
+}
+#pure-css-game{
+    background-image: url("./src/css-pure-game.png");
+  
+}
+#social-media-buttons{
+    background-image: url("./src/social-media-buttons.png");
+}
+#buttons-library{
+    background-image: url("./src/buttons-libarary.png");
+}
+#starfall-animation
+{
+    background-image: url("./src/star-fall.png");
+}
+#flashlight-animation{
+    background-image: url("./src/flashlight.png"); 
+}
+#sass-menue{
+    background-image: url("./src/bar.png");
+}
+#layout-flex-grid{
+    background-image: url("./src/layout.png"); 
+}
+#quiz-game{
+    background-image: url("./src/10quiz.png");   
+}
+#hebrew-abc-menue{
+    background-image: url("./src/hebrewAlefBet.png"); 
+}
+#colors-game{
+    background-image: url("./src/color-game.png");   
+}
+#colors-memory-game{
+    background-image: url("./src/color-sequence-game.png"); 
+}
+#memeory-game{
+    background-image: url("./src/memory-cards-game.png");
+}
+.portfolio-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 1px #0000005c;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+p{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
