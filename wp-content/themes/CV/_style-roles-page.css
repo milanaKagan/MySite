@@ -1,0 +1,60 @@
+main#roles{
+    background-image:  linear-gradient(rgb(45 45 43 / 50%), rgb(0 0 0) ), url("./src/background2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    color: white
+}
+main#roles h1{
+    margin: 0;
+}
+.role-section ul{
+    font-size: 25px;
+}
+.role-section ul li{
+    font-size: 15px;
+    text-align: start;
+}
+.role-section div.logo{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+.role-section div.brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.role-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    width: 100%;
+    margin: 20px 0;
+}
+#philips-logo
+{
+    background-image: url("./src/philips-logo.png");
+}
+#idf-logo
+{
+    background-image: url("./src/idf-logo.png");
+    width: 180px;
+    height: 200px;
+}
+#qalitest-logo
+{
+    width: 300px;
+    height: 120px;
+    background-image: url("./src/qalitest-logo.png");
+}
+#int-logo
+{
+    width: 180px;
+    height: 200px;
+    background-image: url("./src/int-logo.png");
+}

@@ -1,15 +1,30 @@
-main#portfolio-main{
+
+main#portfolio-main div{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 17px;
     width: 100%;
+   
+}
+main#portfolio-main h1{
+    margin: 0;
+}
+main#portfolio-main{
+    background-image: linear-gradient(rgb(45 45 43 / 50%), rgb(0 0 0 / 83%) ),url(./src/background2.jpg);
+    background-position: center;
+    color: white;
+    padding: 20px;
 }
 .portfolio-section div{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 290px;
-    height: 140px;
+    height: 180px;
+}
+a{
+    margin: 10px;
+    color: #cacaca;
 }
 #pure-css-game{
     background-image: url("./src/css-pure-game.png");

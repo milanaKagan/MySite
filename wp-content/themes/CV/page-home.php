@@ -51,6 +51,9 @@ get_header();
     document.getElementById("portfolio").onclick = () => { 
         location.href = "http://localhost:8080/milanakagan/portfolio";
     };
+    document.getElementById("roles-btn").onclick = () => { 
+        location.href = "http://localhost:8080/milanakagan/roles/";
+    };
 </script>
 <?php
 get_footer();
